@@ -208,54 +208,7 @@ nav a:hover{
 }
 
 /* ================= RESPONSIVE ================= */
-
-@media(max-width:1200px){
-
-    .left h1{
-        font-size:5rem;
-    }
-
-    .cookie{
-        width:260px;
-        bottom:-120px;
-    }
-}
-
-@media(max-width:992px){
-
-    .hero{
-        flex-direction:column;
-        text-align:center;
-        gap:50px;
-    }
-
-    .left{
-        width:100%;
-    }
-
-    .right{
-        width:100%;
-    }
-
-    .left p{
-        margin:auto;
-        margin-top:30px;
-    }
-
-    .slider-controls{
-        justify-content:center;
-    }
-
-    .cookie{
-        position:relative;
-        right:auto;
-        bottom:auto;
-        width:250px;
-        margin-top:30px;
-
-    }
-}
-
+*/Nothing*/
 @media(max-width:768px){
 
     header{
