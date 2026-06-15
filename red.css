@@ -26,7 +26,6 @@ header{
 }
 
 nav{
-    nav{
     display:flex;
     gap:20px;
     background:rgba(255,255,255,0.08);
@@ -37,8 +36,6 @@ nav{
     border-radius:30px;
     box-shadow:0 8px 32px rgba(0,0,0,.12);
 }
-}
-
 nav a{
     position:relative;
     color:white;
@@ -211,96 +208,69 @@ nav a:hover{
 
 /* ================= RESPONSIVE ================= */
 
-@media(max-width:1200px){
-
-    .left h1{
-        font-size:5rem;
-    }
-
-    .cookie{
-        width:260px;
-        bottom:-120px;
-    }
-}
-
-@media(max-width:992px){
-
-    .hero{
-        flex-direction:column;
-        text-align:center;
-        gap:50px;
-    }
-
-    .left{
-        width:100%;
-    }
-
-    .right{
-        width:100%;
-    }
-
-    .left p{
-        margin:auto;
-        margin-top:30px;
-    }
-
-    .slider-controls{
-        justify-content:center;
-    }
-
-    .cookie{
-        position:relative;
-        right:auto;
-        bottom:auto;
-        width:250px;
-        margin-top:30px;
-    }
-}
-
 @media(max-width:768px){
 
     header{
-        padding:20px;
+        padding:15px;
     }
 
-    nav{
+    nav,
+    .icons{
         display:none;
     }
 
     .hero{
+        flex-direction:column;
+        text-align:center;
         padding:20px;
+        gap:20px;
     }
 
-    .left h1{
-        font-size:4rem;
-    }
-
-    .pack{
+    .left,
+    .right{
         width:100%;
     }
 
-    .cookie{
-        width:200px;
+    .left h1{
+        font-size:3.5rem;
     }
 
-    .nav-btn{
-        width:55px;
-        height:55px;
-        font-size:28px;
+    .left p{
+        font-size:1rem;
+        max-width:100%;
+        margin-top:20px;
+    }
+
+    .pack{
+        max-width:100%;
+        top:0;
+    }
+
+    .cookie{
+        width:140px;
+        right:20px;
+        top:120px;
+    }
+
+    .slider-controls{
+        justify-content:center;
+        margin-top:30px;
     }
 }
 
 @media(max-width:480px){
 
     .left h1{
-        font-size:3rem;
+        font-size:2.8rem;
     }
 
     .left p{
-        font-size:1rem;
+        font-size:.95rem;
     }
 
     .cookie{
-        width:170px;
+        width:120px;
+        right:10px;
+        top:100px;
     }
 }
