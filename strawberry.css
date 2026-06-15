@@ -26,7 +26,6 @@ header{
 }
 
 nav{
-    nav{
     display:flex;
     gap:20px;
     background:rgba(255,255,255,0.08);
@@ -36,7 +35,6 @@ nav{
     padding:10px 20px;
     border-radius:30px;
     box-shadow:0 8px 32px rgba(0,0,0,.12);
-}
 }
 
 nav a{
@@ -286,21 +284,4 @@ nav a:hover{
     .nav-btn{
         width:55px;
         height:55px;
-        font-size:28px;
-    }
-}
-
-@media(max-width:480px){
-
-    .left h1{
-        font-size:3rem;
-    }
-
-    .left p{
-        font-size:1rem;
-    }
-
-    .cookie{
-        width:170px;
-    }
-}
+        font-siz
